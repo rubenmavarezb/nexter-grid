@@ -19,3 +19,11 @@ export type Home = {
     meters: Highlight;
     price: Highlight;
 }
+
+export type Image = {
+    id: number;
+    route:string;
+    alt:string;
+    gridRow?:string;
+    gridColumn?:string;
+}

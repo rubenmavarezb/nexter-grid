@@ -32,7 +32,7 @@ const HomeCard = (props: Home) => {
                 <p>${props.price.label}</p>
             </div>
 
-            <button className="cta">Contact realtor</button>
+            <button className="btn home__btn">Contact realtor</button>
         </div>
     )
 }
