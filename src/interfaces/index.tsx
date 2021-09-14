@@ -27,3 +27,17 @@ export type Image = {
     gridRow?:string;
     gridColumn?:string;
 }
+
+export type FooterLink = {
+    id:number;
+    label:string;
+    link:string;
+}
+
+export type Realtor = {
+    id:number;
+    fullname: string;
+    housessold: number;
+    img: string;
+    alt:string;
+}
